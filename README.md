@@ -27,3 +27,22 @@ docker-compose up
 
 * Acesse http://localhost:8000 para acessar o Django
 * Acesse http://localhost:9000 para acesso o PgAdmin
+
+
+## Comandos Úteis
+
+- **Executar o Docker-Compose em bash**
+  ``` bash
+  docker-compose exec app
+  ```
+- **Criar usuário** (Dentro do Docker)
+  ``` bash
+  python manage.py createsuperuser
+  ```
+- **Aplicar migrações** (Dentro do Docker)
+  ``` bash
+  python manage.py migrate
+  ```
+
+## Vídeo
+[![](https://img.youtube.com/vi/gS2jULbwI0Q/mqdefault.jpg)](https://youtu.be/gS2jULbwI0Q)
