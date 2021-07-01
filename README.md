@@ -44,5 +44,5 @@ docker-compose up
   python manage.py migrate
   ```
 
-## Vídeo
+## Vídeo Aula
 [![](https://img.youtube.com/vi/gS2jULbwI0Q/mqdefault.jpg)](https://youtu.be/gS2jULbwI0Q)
