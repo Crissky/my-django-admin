@@ -35,6 +35,10 @@ docker-compose up
   ``` bash
   docker-compose exec app bash
   ```
+  ou
+  ``` bash
+  docker-compose run app bash
+  
 - **Criar usuário** (Dentro do Docker)
   ``` bash
   python manage.py createsuperuser
