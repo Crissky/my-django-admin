@@ -33,7 +33,7 @@ docker-compose up
 
 - **Executar o Docker-Compose em bash**
   ``` bash
-  docker-compose exec app
+  docker-compose exec app bash
   ```
 - **Criar usuário** (Dentro do Docker)
   ``` bash
